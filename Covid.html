@@ -1,0 +1,30 @@
+<DECOTYPE! html>
+<html>
+    <head>
+        <title>Covid-19 Chatbot</title>
+        <script>
+            window.watsonAssistantChatOptions = {
+                integrationID: "d739185f-f792-4ed9-97d4-a0651b784e16", // The ID of this integration.
+                region: "us-south", // The region your integration is hosted in.
+                serviceInstanceID: "f69fea46-9529-4f67-a50e-0e41f16871c3", // The ID of your service instance.
+                onLoad: function(instance) { instance.render(); }
+              };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+              document.head.appendChild(t);
+            });
+          </script>
+    </head>
+    <body>
+        <div style="display: block;">
+            <img src="aax.png" alt="Covid-19" style="width: 1520; height: 740;">
+            <div>
+                <h1 style="color: rgb(243, 242, 242); margin-top: -600; margin-left: 20; font-size: 80px;">COVID-19 Chatbot</h1>
+                <h6 style="color: lightgrey; margin-top: -10; margin-left: 30; font-size: 20px;">By Emtenan from SmartMethods</h6>
+            </div>
+            
+        </div>
+
+    </body>
+</html>
